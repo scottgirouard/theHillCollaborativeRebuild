@@ -63,61 +63,117 @@ a {
 	width: 20%;
 }
 
+
+
 .collective {
 	height: 325vh;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
-.soundcloud {
-	margin: 0 auto;
-	// height: 75vh;
-	outline: 0;
-	padding: 12px 0 12px 0;
+// COLLECTIVE STYLES:
 
+img {
+	max-height: 50%;
+	max-width: 50%;
 }
 
-.bandcampSection {
-	width: 50%;
-	flex-direction: row;
-	margin: 0 auto;
-}
-
-.bandcampLeft {
-	// margin-left: 1rem;
-	// height: 75vh;
-	width: 20%;
-	outline: 0;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 0 12px 0;
-	float: left;
-	margin: 0 auto;
-}
-
-.bandcampRight {
-	margin-right: 11rem;
-	// height: 75vh;
-	width: 20%;
-	outline: 0;
+.artistCard1, .artistCard2, .artistCard3, .artistCard4 {
 	justify-content: center;
 	align-items: center;
-	padding: 12px 0 12px 0;
-	float: right;
-	padding-left: 28px;
-	margin: 0 auto;
+	// border: 1px solid red;
+}
+
+.artistCard1 {
+	width: 25%;
+	height: 15%;
+	// margin: 0 auto;
+	align-content: center;
+	background-image: url('/assets/GAlogo-01.png');
+	background-size: 350px 300px;
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	// CENTER
+	background-position: center;
+}
+
+.artistCard2 {
+	width: 80%;
+	height: 10%;
+	background-image: url('/assets/HialeahLogo.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	background-position: center;
 
 }
 
-.bandcampHialeah {
+.artistCard3 {
+	max-width: 20%;
+	max-height: 30%;
 	margin: 0 auto;
-	// height: 75vh;
-	width: 30%;
-	outline: 0;
-	align-items: center;
-	padding: 12px 0 12px 0;
 }
+
+.artistCard4 {
+	max-width: 20%;
+	max-height: 35%;
+	margin: 0 auto;
+}
+
+				// PREVIOUS COLLECTIVE STYLES BELOW
+
+// .soundcloud {
+// 	margin: 0 auto;
+// 	// height: 75vh;
+// 	outline: 0;
+// 	padding: 12px 0 12px 0;
+
+// }
+
+// .bandcampSection {
+// 	width: 50%;
+// 	flex-direction: row;
+// 	margin: 0 auto;
+// }
+
+// .bandcampLeft {
+// 	// margin-left: 1rem;
+// 	// height: 75vh;
+// 	width: 20%;
+// 	outline: 0;
+// 	align-items: center;
+// 	justify-content: center;
+// 	padding: 12px 0 12px 0;
+// 	float: left;
+// 	margin: 0 auto;
+// }
+
+// .bandcampRight {
+// 	margin-right: 11rem;
+// 	// height: 75vh;
+// 	width: 20%;
+// 	outline: 0;
+// 	justify-content: center;
+// 	align-items: center;
+// 	padding: 12px 0 12px 0;
+// 	float: right;
+// 	padding-left: 28px;
+// 	margin: 0 auto;
+
+// }
+
+// .bandcampHialeah {
+// 	margin: 0 auto;
+// 	// height: 75vh;
+// 	width: 30%;
+// 	outline: 0;
+// 	align-items: center;
+// 	padding: 12px 0 12px 0;
+// }
+
+			// END OF PREVIOUS COLLECTIVE STYLES
 
 // SERVICE PAGE
 
