@@ -1,0 +1,478 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 8.5rem;
+  color: black;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  margin-left: 1.5rem; }
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif; }
+
+a {
+  font-size: 1.3rem;
+  color: black;
+  font-family: 'Merriweather', serif; }
+
+a:hover {
+  color: rgba(169, 156, 215, 0.817); }
+
+a.serviceFont {
+  font-size: 16.5px;
+  margin-right: 5px; }
+
+a.serviceFont:hover {
+  color: rgba(169, 156, 215, 0.817); }
+
+.footerP {
+  font-family: 'Merriweather', serif;
+  font-size: 14px; }
+
+.collectiveHeadline {
+  padding-bottom: 1rem; }
+
+.email {
+  font-family: 'Merriweather', serif;
+  padding-bottom: 2rem;
+  color: rgba(169, 156, 215, 0.817); }
+
+.wrapper {
+  width: 50%; }
+
+@font-face {
+  font-family: STIXGeneralItalic;
+  src: url(/dev/STIXGeneralItalic.otf); }
+
+header {
+  background: url(/assets/THCCHUNK-02.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 110vh;
+  margin: 0 auto;
+  max-width: 500vh; }
+
+footer {
+  text-align: center;
+  padding-top: 3rem; }
+
+.thcBox .thc {
+  max-height: 40%;
+  max-width: 40%;
+  padding-bottom: 15px;
+  margin-left: 7px; }
+
+.thcSmall {
+  max-height: 20%;
+  max-width: 20%;
+  margin-left: 2rem; }
+
+.thcSmallServices {
+  max-height: 20%;
+  max-width: 20%;
+  margin-left: 2.2rem; }
+
+ul {
+  list-style-type: none;
+  margin-left: .5rem;
+  position: fixed; }
+
+a {
+  text-decoration: none; }
+
+.sideList {
+  margin-top: 6.2rem;
+  width: 20%; }
+
+.collective {
+  height: 325vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.soundcloud {
+  margin: 0 auto;
+  outline: 0;
+  padding: 12px 0 12px 0; }
+
+.bandcampSection {
+  width: 50%;
+  flex-direction: row;
+  margin: 0 auto; }
+
+.bandcampLeft {
+  width: 20%;
+  outline: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 12px 0;
+  float: left;
+  margin: 0 auto; }
+
+.bandcampRight {
+  margin-right: 11rem;
+  width: 20%;
+  outline: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0 12px 0;
+  float: right;
+  padding-left: 28px;
+  margin: 0 auto; }
+
+.bandcampHialeah {
+  margin: 0 auto;
+  width: 30%;
+  outline: 0;
+  align-items: center;
+  padding: 12px 0 12px 0; }
+
+.sideListServices {
+  margin-top: 13rem; }
+
+.webDevSecion {
+  margin: 0 auto;
+  width: 50%;
+  outline: 0;
+  align-items: center;
+  padding: 12px 0 12px 0;
+  text-align: center; }
+
+.webDevImg {
+  width: 40%;
+  margin: 0 auto;
+  align-content: center; }
+
+.servicesSection {
+  height: 340vh; }
+
+@media screen and (max-width: 1315px), screen and (max-height: 500px) {
+  .bandcampRight {
+    width: 24%; } }
+
+@media (max-width: 1500px) {
+  .bandcampRight {
+    margin-right: 9rem; } }
+
+@media (max-width: 1300px) {
+  .bandcampRight {
+    margin-right: 11rem; } }
+
+@media (max-width: 1230px) {
+  .bandcampSection {
+    width: 62%;
+    flex-direction: row;
+    margin: 0 auto; }
+  .bandcampLeft {
+    margin-left: 2rem;
+    width: 10%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: left; }
+  .bandcampRight {
+    margin-right: 17rem;
+    width: 10%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: right; } }
+
+@media (max-width: 1220px) {
+  .bandcampSection {
+    width: 65%;
+    flex-direction: row;
+    margin: 0 auto; }
+  .bandcampLeft {
+    margin-left: 3rem;
+    width: 8%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: left; }
+  .bandcampRight {
+    margin-right: 19rem;
+    width: 8%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: right; } }
+
+@media (max-width: 1215px) {
+  header {
+    height: 120vh; }
+  .bandcampSection {
+    width: 67%;
+    flex-direction: row;
+    margin: 0 auto; }
+  .bandcampLeft {
+    margin-left: 2rem;
+    width: 6%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: left; }
+  .bandcampRight {
+    margin-right: 21rem;
+    width: 6%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: right; } }
+
+@media (max-width: 1201px) {
+  .bandcampSection {
+    width: 68%;
+    flex-direction: row;
+    margin: 0 auto; }
+  .bandcampLeft {
+    margin-left: 4rem;
+    width: 4%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: left; }
+  .bandcampRight {
+    margin-right: 22rem;
+    width: 4%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    float: right; } }
+
+@media (max-width: 1200px) {
+  .bandcampSection {
+    width: 30%;
+    flex-direction: column;
+    margin: 0 auto; }
+  .bandcampLeft {
+    margin: 0 auto;
+    width: 100%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0; }
+  .bandcampRight {
+    margin: 0 auto;
+    width: 100%;
+    outline: 0;
+    align-items: center;
+    padding: 12px 0 12px 0; }
+  .collective {
+    height: 460vh; } }
+
+@media screen and (max-width: 1040px), screen and (max-height: 610px) {
+  .collective {
+    height: 200rem; } }
+
+@media (max-width: 900px) {
+  .collective {
+    height: 460vh; } }
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%; }
+  header {
+    height: 80vh;
+    max-width: 70vh; }
+  .thcBox {
+    visibility: hidden; }
+  .collective {
+    height: 580vh;
+    max-width: 70vh; }
+  .soundcloud {
+    max-width: 70vh; }
+  .bandcampLeft {
+    max-width: 30vh; }
+  h1 {
+    font-size: 4.20rem;
+    text-align: left;
+    padding: none; }
+  a.serviceFont {
+    padding: none; }
+  .sideList {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25rem;
+    position: relative; }
+  a {
+    font-size: 13px;
+    padding: 5px;
+    margin: 0 auto; } }
+
+@media (max-width: 320px) {
+  header {
+    height: 85vh;
+    margin: 0 auto; }
+  ul {
+    padding: none;
+    margin: 0; }
+  .sideList {
+    margin-top: 2.5rem;
+    padding: none; }
+  .collective {
+    height: 500vh;
+    max-width: 90%;
+    margin: 0 auto; }
+  .soundcloud {
+    width: 100%;
+    margin: 0 auto; }
+  .bandcampSection {
+    width: 100%;
+    margin: 0 auto; }
+  .bandcampLeft {
+    width: 100%;
+    margin: 0 auto; }
+  .bandcampRight {
+    width: 100%;
+    margin: 0; }
+  h1 {
+    font-size: 4.3rem;
+    text-align: left;
+    padding: none;
+    margin: 0 0 0 11px; }
+  a.serviceFont {
+    padding: none; }
+  a {
+    font-size: 13px;
+    padding: 4.5px;
+    margin: 0; }
+  footer {
+    margin: 0 auto;
+    align-items: center; }
+  .email {
+    font-size: 15px; }
+  .footerP {
+    font-size: 10px; } }
