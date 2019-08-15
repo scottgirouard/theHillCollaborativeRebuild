@@ -218,23 +218,17 @@ a {
   width: 20%; }
 
 .collective {
-  height: 325vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%; }
-
-img {
-  max-height: 50%;
-  max-width: 50%; }
-
-.artistCard1, .artistCard2, .artistCard3, .artistCard4 {
-  justify-content: center;
-  align-items: center; }
+  width: 100%;
+  margin: 0 auto; }
 
 .artistCard1 {
-  width: 25%;
-  height: 15%;
+  width: 33%;
+  height: 60%;
+  margin: 0 auto;
   align-content: center;
   background-image: url("/assets/GAlogo-01.png");
   background-size: 350px 300px;
@@ -243,8 +237,9 @@ img {
   background-position: center; }
 
 .artistCard2 {
-  width: 80%;
-  height: 10%;
+  width: 33%;
+  height: 60%;
+  margin: 0 auto;
   background-image: url("/assets/HialeahLogo.png");
   background-size: auto;
   background-repeat: no-repeat;
@@ -252,13 +247,25 @@ img {
   background-position: center; }
 
 .artistCard3 {
-  max-width: 20%;
-  max-height: 30%;
+  width: 33%;
+  height: 60%;
+  margin: 0 auto;
+  background-image: url("/assets/LippyLogo.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  background-position: center;
   margin: 0 auto; }
 
 .artistCard4 {
-  max-width: 20%;
-  max-height: 35%;
+  width: 33%;
+  height: 60%;
+  margin: 0 auto;
+  background-image: url("/assets/NARHlogo.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  background-position: center;
   margin: 0 auto; }
 
 .sideListServices {
