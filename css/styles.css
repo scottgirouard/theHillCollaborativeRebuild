@@ -152,6 +152,9 @@ a {
 a:hover {
   color: rgba(169, 156, 215, 0.817); }
 
+i:hover {
+  color: rgba(169, 156, 215, 0.817); }
+
 a.serviceFont {
   font-size: 16.5px;
   margin-right: 5px; }
@@ -218,17 +221,23 @@ a {
   width: 20%; }
 
 .collective {
-  height: 80vh;
+  height: 60vh;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   width: 100%;
-  margin: 0 auto; }
+  justify-content: center; }
+
+.socials {
+  display: flex;
+  flex-direction: row; }
+
+.socials2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
 
 .artistCard1 {
   width: 33%;
-  height: 60%;
-  margin: 0 auto;
+  height: 100%;
   align-content: center;
   background-image: url("/assets/GAlogo-01.png");
   background-size: 350px 300px;
@@ -238,8 +247,7 @@ a {
 
 .artistCard2 {
   width: 33%;
-  height: 60%;
-  margin: 0 auto;
+  height: 100%;
   background-image: url("/assets/HialeahLogo.png");
   background-size: auto;
   background-repeat: no-repeat;
@@ -248,25 +256,25 @@ a {
 
 .artistCard3 {
   width: 33%;
-  height: 60%;
-  margin: 0 auto;
+  height: 100%;
   background-image: url("/assets/LippyLogo.png");
   background-size: auto;
   background-repeat: no-repeat;
   border: 1px solid red;
-  background-position: center;
-  margin: 0 auto; }
+  background-position: center; }
 
 .artistCard4 {
   width: 33%;
-  height: 60%;
-  margin: 0 auto;
+  height: 100%;
   background-image: url("/assets/NARHlogo.png");
   background-size: auto;
   background-repeat: no-repeat;
   border: 1px solid red;
-  background-position: center;
-  margin: 0 auto; }
+  background-position: center; }
+
+i {
+  font-size: 2.3rem;
+  padding: 5px; }
 
 .sideListServices {
   margin-top: 13rem; }
@@ -416,7 +424,8 @@ a {
     height: 80vh;
     max-width: 70vh; }
   .thcBox {
-    visibility: hidden; }
+    visibility: hidden;
+    width: 30%; }
   .collective {
     height: 580vh;
     max-width: 70vh; }
